@@ -19,7 +19,7 @@ header {
 }
 
 header .logo {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ main {
 }
 
 .baskets {
-    margin: 20px auto;
+    margin: 30px auto;
     max-width: 1200px;
 }
 
@@ -62,24 +62,26 @@ main {
 }
 
 .product {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #ffffffd4;
+    border: 1px solid #100e0e;
     border-radius: 8px;
     padding: 20px;
     width: 250px;
+    height: 400px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(221, 30, 30, 0.1);
 }
 
 .product img {
     width: 100%;
-    height: auto;
+    height: 70%;
+    object-fit: contain;
     border-radius: 8px;
 }
 
 .product h3 {
     font-size: 20px;
-    margin: 15px 0;
+    margin: px 0;
 }
 
 .product p {
@@ -88,13 +90,13 @@ main {
 }
 
 .add-to-cart {
-    background-color: #333;
-    color: #fff;
+    background-color: #a51c1c;
+    color: #f6f4f4;
     border: none;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 .add-to-cart:hover {
@@ -108,3 +110,4 @@ footer {
     padding: 10px;
     margin-top: 30px;
 }
+
